@@ -1,4 +1,4 @@
-package com.ipeer.mcde.ipeer.nbt.tags;
+package com.ipeer.mcde.jnbt.tags;
 
 public class StringTag extends Tag {
 

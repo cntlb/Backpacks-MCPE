@@ -1,4 +1,4 @@
-package com.ipeer.mcde.ipeer.nbt.tags;
+package com.ipeer.mcde.jnbt.tags;
 
 import java.util.Collections;
 import java.util.List;

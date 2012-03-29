@@ -1,18 +1,18 @@
 package com.ipeer.mcde.ipeer.nbt;
 
-import com.ipeer.mcde.ipeer.nbt.tags.ByteArrayTag;
-import com.ipeer.mcde.ipeer.nbt.tags.ByteTag;
-import com.ipeer.mcde.ipeer.nbt.tags.CompoundTag;
-import com.ipeer.mcde.ipeer.nbt.tags.DoubleTag;
-import com.ipeer.mcde.ipeer.nbt.tags.EndTag;
-import com.ipeer.mcde.ipeer.nbt.tags.FloatTag;
-import com.ipeer.mcde.ipeer.nbt.tags.IntArrayTag;
-import com.ipeer.mcde.ipeer.nbt.tags.IntTag;
-import com.ipeer.mcde.ipeer.nbt.tags.ListTag;
-import com.ipeer.mcde.ipeer.nbt.tags.LongTag;
-import com.ipeer.mcde.ipeer.nbt.tags.ShortTag;
-import com.ipeer.mcde.ipeer.nbt.tags.StringTag;
-import com.ipeer.mcde.ipeer.nbt.tags.Tag;
+import com.ipeer.mcde.jnbt.tags.ByteArrayTag;
+import com.ipeer.mcde.jnbt.tags.ByteTag;
+import com.ipeer.mcde.jnbt.tags.CompoundTag;
+import com.ipeer.mcde.jnbt.tags.DoubleTag;
+import com.ipeer.mcde.jnbt.tags.EndTag;
+import com.ipeer.mcde.jnbt.tags.FloatTag;
+import com.ipeer.mcde.jnbt.tags.IntArrayTag;
+import com.ipeer.mcde.jnbt.tags.IntTag;
+import com.ipeer.mcde.jnbt.tags.ListTag;
+import com.ipeer.mcde.jnbt.tags.LongTag;
+import com.ipeer.mcde.jnbt.tags.ShortTag;
+import com.ipeer.mcde.jnbt.tags.StringTag;
+import com.ipeer.mcde.jnbt.tags.Tag;
 
 public class NBTUtil {
 
@@ -73,7 +73,7 @@ public class NBTUtil {
 		else if(clazz.equals(StringTag.class))
 			return "TAG_String";
 		else 
-			throw new IllegalArgumentException("Invalid tag classs (" + clazz.getName() + ").");
+			throw new IllegalArgumentException("Invalid tag class (" + clazz.getName() + ").");
 		
 	}
 	

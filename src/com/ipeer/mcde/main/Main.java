@@ -7,10 +7,10 @@ import java.util.List;
 import java.util.Map;
 
 import com.ipeer.mcde.ipeer.nbt.NBTInputStream;
-import com.ipeer.mcde.ipeer.nbt.tags.ByteTag;
-import com.ipeer.mcde.ipeer.nbt.tags.CompoundTag;
-import com.ipeer.mcde.ipeer.nbt.tags.ShortTag;
-import com.ipeer.mcde.ipeer.nbt.tags.Tag;
+import com.ipeer.mcde.jnbt.tags.ByteTag;
+import com.ipeer.mcde.jnbt.tags.CompoundTag;
+import com.ipeer.mcde.jnbt.tags.ShortTag;
+import com.ipeer.mcde.jnbt.tags.Tag;
 import com.ipeer.mcde.minecraft.items.Enchantment;
 import com.ipeer.mcde.minecraft.items.Item;
 import com.ipeer.mcde.minecraft.items.ItemTable;
@@ -74,7 +74,6 @@ public class Main implements Runnable {
 				}
 			}
 			catch (NullPointerException n) { }
-			t = (Tag)tag.get("ench");
 			Item item = new Item(id, name, slot, damage, count, eList);
 			System.out.println(item.toString());
 			playerItems.add(item);

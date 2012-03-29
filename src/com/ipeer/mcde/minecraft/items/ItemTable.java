@@ -7,7 +7,7 @@ public class ItemTable {
 	public static String getItem(int id) {
 		switch (id) {
 		
-		/* Items */
+			/* Blocks */
 		
 		case 0:
 			return "Air";

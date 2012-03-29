@@ -10,18 +10,18 @@ import java.util.List;
 import java.util.Map;
 import java.util.zip.GZIPInputStream;
 
-import com.ipeer.mcde.ipeer.nbt.tags.ByteArrayTag;
-import com.ipeer.mcde.ipeer.nbt.tags.ByteTag;
-import com.ipeer.mcde.ipeer.nbt.tags.CompoundTag;
-import com.ipeer.mcde.ipeer.nbt.tags.DoubleTag;
-import com.ipeer.mcde.ipeer.nbt.tags.EndTag;
-import com.ipeer.mcde.ipeer.nbt.tags.FloatTag;
-import com.ipeer.mcde.ipeer.nbt.tags.IntTag;
-import com.ipeer.mcde.ipeer.nbt.tags.ListTag;
-import com.ipeer.mcde.ipeer.nbt.tags.LongTag;
-import com.ipeer.mcde.ipeer.nbt.tags.ShortTag;
-import com.ipeer.mcde.ipeer.nbt.tags.StringTag;
-import com.ipeer.mcde.ipeer.nbt.tags.Tag;
+import com.ipeer.mcde.jnbt.tags.ByteArrayTag;
+import com.ipeer.mcde.jnbt.tags.ByteTag;
+import com.ipeer.mcde.jnbt.tags.CompoundTag;
+import com.ipeer.mcde.jnbt.tags.DoubleTag;
+import com.ipeer.mcde.jnbt.tags.EndTag;
+import com.ipeer.mcde.jnbt.tags.FloatTag;
+import com.ipeer.mcde.jnbt.tags.IntTag;
+import com.ipeer.mcde.jnbt.tags.ListTag;
+import com.ipeer.mcde.jnbt.tags.LongTag;
+import com.ipeer.mcde.jnbt.tags.ShortTag;
+import com.ipeer.mcde.jnbt.tags.StringTag;
+import com.ipeer.mcde.jnbt.tags.Tag;
 
 public class NBTInputStream implements Closeable {
 	
